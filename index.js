@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 });
 
 app.get(
-  "/now",
+  "/api/2015-12-25",
   (req, res, next) => {
     req.time = new Date().toString();
     next();
